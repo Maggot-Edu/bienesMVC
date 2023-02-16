@@ -1,0 +1,19 @@
+{
+    "name": "eduard/bienes",
+    "description": "Proyecto POO clases",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eduard",
+            "email": "eduardbadoyan@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
