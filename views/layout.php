@@ -23,7 +23,7 @@
     <header class="header <?php echo $inicio ? 'inicio' : '' ?> ">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/bienes/index.php">
+                <a href="/">
                     <img src="/build/img/logo.svg" alt="logo de la empresa">
                 </a>
 
@@ -33,12 +33,12 @@
                 <div class="derecha">
                     <img class="dark-mode-boton" src="/build/img/dark-mode.svg" alt="dark mode boton">
                     <nav class="navegacion">
-                        <a href="/bienes/nosotros.php">Nosotros</a>
-                        <a href="/bienes/anuncios.php">Anuncios</a>
-                        <a href="/bienes/blog.php">Blog</a>
-                        <a href="/bienes/contacto.php">¿Hablamos?</a>
+                        <a href="/nosotros">Nosotros</a>
+                        <a href="/anuncios">Anuncios</a>
+                        <a href="/blog">Blog</a>
+                        <a href="/contacto">¿Hablamos?</a>
                         <?php if($auth): ?>
-                            <a href="/bienes/cerrar-session.php">Cerrar Sessión</a>
+                            <a href="/cerrar-session">Cerrar Sessión</a>
                         <?php endif; ?>
                     </nav>
                 </div>
