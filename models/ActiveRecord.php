@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Model;
 
 class ActiveRecord{
     //BBDD
@@ -64,7 +64,7 @@ class ActiveRecord{
         if ($resultado) {
             $this->borrarImagen();
             // Redireccion de usuario
-            header('Location: /bienes/admin?resultado=3');
+            header('Location: /admin?resultado=3');
         } 
     }
     public function sanitizarAtributos() {
