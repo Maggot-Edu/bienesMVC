@@ -7,12 +7,11 @@
         <h2>Casas y chalets en Venta</h2>
 
         <?php 
-            $limite = 3;
             include 'listado.php';
         ?>
         
         <div class="alinear-derecha">
-            <a href="anuncios.php" class="boton-verde">Ver Todo</a>
+            <a href="/propiedades" class="boton-verde">Ver Todo</a>
         </div>
     </section>
 
